@@ -1,0 +1,127 @@
+/* Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: brown;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.intro, .about, .courses, .contact {
+    margin: 20px 0;
+}
+
+.courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.courses ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: blanchedalmond;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: brown;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Header Image */
+.header-image img {
+    width: 200px;
+    height: auto;
+}
+
+/* Course Images */
+.course-image {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.about-image {
+    max-width: 80%;
+    margin-top: 20px;
+}
+
+.intro-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Contact Image */
+.contact-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
